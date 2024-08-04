@@ -1,0 +1,4 @@
+Invoking command in '/home/athul/Hiwi/submodules/planeDetection/build/cpp': /usr/bin/cmake /home/athul/Hiwi/submodules/planeDetection/ros2/src/cpp -DCMAKE_INSTALL_PREFIX=/home/athul/Hiwi/submodules/planeDetection/install/cpp
+Invoked command in '/home/athul/Hiwi/submodules/planeDetection/build/cpp' returned '0': /usr/bin/cmake /home/athul/Hiwi/submodules/planeDetection/ros2/src/cpp -DCMAKE_INSTALL_PREFIX=/home/athul/Hiwi/submodules/planeDetection/install/cpp
+Invoking command in '/home/athul/Hiwi/submodules/planeDetection/build/cpp': /usr/bin/cmake --build /home/athul/Hiwi/submodules/planeDetection/build/cpp -- -j16 -l16
+Invoked command in '/home/athul/Hiwi/submodules/planeDetection/build/cpp' returned '0': /usr/bin/cmake --build /home/athul/Hiwi/submodules/planeDetection/build/cpp -- -j16 -l16

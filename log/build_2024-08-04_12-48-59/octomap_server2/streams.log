@@ -1,0 +1,273 @@
+[0.038s] Invoking command in '/home/athul/Hiwi/submodules/planeDetection/build/octomap_server2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2 -DCMAKE_INSTALL_PREFIX=/home/athul/Hiwi/submodules/planeDetection/install/octomap_server2
+[0.247s] -- The C compiler identification is GNU 9.4.0
+[0.247s] -- The CXX compiler identification is GNU 9.4.0
+[0.247s] -- Check for working C compiler: /usr/bin/cc
+[0.302s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.303s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.385s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.471s] -- Detecting CXX compiler ABI info
+[0.548s] -- Detecting CXX compiler ABI info - done
+[0.555s] -- Detecting CXX compile features
+[0.556s] -- Detecting CXX compile features - done
+[0.562s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.586s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.586s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.781s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.836s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.845s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.981s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.020s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.152s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.153s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.154s] -- Looking for pthread.h
+[1.240s] -- Looking for pthread.h - found
+[1.240s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.342s] -- Looking for pthread_create in pthreads
+[1.414s] -- Looking for pthread_create in pthreads - not found
+[1.414s] -- Looking for pthread_create in pthread
+[1.499s] -- Looking for pthread_create in pthread - found
+[1.500s] -- Found Threads: TRUE  
+[1.619s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.683s] -- Checking for module 'eigen3'
+[1.713s] --   Found eigen3, version 3.3.7
+[1.795s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.795s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.818s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.837s] -- Checking for module 'flann'
+[1.871s] --   Found flann, version 1.9.1
+[1.950s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.000s] -- The imported target "vtkParseOGLExt" references the file
+[2.000s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.000s] but this file does not exist.  Possible reasons include:
+[2.000s] * The file was deleted, renamed, or moved to another location.
+[2.000s] * An install or uninstall procedure did not complete successfully.
+[2.000s] * The installation package was faulty and contained
+[2.001s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.001s] but not all the files it references.
+[2.001s] 
+[2.001s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.001s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.001s] but this file does not exist.  Possible reasons include:
+[2.001s] * The file was deleted, renamed, or moved to another location.
+[2.001s] * An install or uninstall procedure did not complete successfully.
+[2.001s] * The installation package was faulty and contained
+[2.001s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.002s] but not all the files it references.
+[2.002s] 
+[2.002s] -- The imported target "vtk" references the file
+[2.002s]    "/usr/bin/vtk"
+[2.002s] but this file does not exist.  Possible reasons include:
+[2.002s] * The file was deleted, renamed, or moved to another location.
+[2.002s] * An install or uninstall procedure did not complete successfully.
+[2.002s] * The installation package was faulty and contained
+[2.002s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.002s] but not all the files it references.
+[2.002s] 
+[2.003s] -- The imported target "pvtk" references the file
+[2.003s]    "/usr/bin/pvtk"
+[2.003s] but this file does not exist.  Possible reasons include:
+[2.003s] * The file was deleted, renamed, or moved to another location.
+[2.003s] * An install or uninstall procedure did not complete successfully.
+[2.003s] * The installation package was faulty and contained
+[2.003s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.003s] but not all the files it references.
+[2.003s] 
+[2.025s] -- Checking for module 'libusb-1.0'
+[2.056s] --   Found libusb-1.0, version 1.0.23
+[2.129s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.224s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.224s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.329s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.329s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.329s] ** WARNING ** io features related to pcap will be disabled
+[2.329s] ** WARNING ** io features related to png will be disabled
+[2.345s] -- Found libusb-1.0: /usr/include  
+[2.345s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.353s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.359s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.398s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.398s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.406s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.420s] -- looking for PCL_COMMON
+[2.421s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.421s] -- looking for PCL_KDTREE
+[2.422s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.422s] -- looking for PCL_OCTREE
+[2.423s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.424s] -- looking for PCL_SEARCH
+[2.425s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.425s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.426s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.426s] -- looking for PCL_FILTERS
+[2.428s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.428s] -- looking for PCL_2D
+[2.428s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.428s] -- looking for PCL_GEOMETRY
+[2.429s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.429s] -- looking for PCL_IO
+[2.430s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.430s] -- looking for PCL_FEATURES
+[2.431s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.432s] -- looking for PCL_ML
+[2.433s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.433s] -- looking for PCL_SEGMENTATION
+[2.434s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.435s] -- looking for PCL_VISUALIZATION
+[2.436s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.436s] -- looking for PCL_SURFACE
+[2.437s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.437s] -- looking for PCL_REGISTRATION
+[2.439s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.439s] -- looking for PCL_KEYPOINTS
+[2.440s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.440s] -- looking for PCL_TRACKING
+[2.441s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.441s] -- looking for PCL_RECOGNITION
+[2.442s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.442s] -- looking for PCL_STEREO
+[2.443s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.443s] -- looking for PCL_APPS
+[2.444s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.444s] -- looking for PCL_IN_HAND_SCANNER
+[2.445s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.445s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.446s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.446s] -- looking for PCL_OUTOFCORE
+[2.447s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.447s] -- looking for PCL_PEOPLE
+[2.448s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.449s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/libboost_system.so;/usr/lib/libboost_filesystem.so;/usr/lib/libboost_date_time.so;/usr/lib/libboost_iostreams.so;/usr/lib/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.10") 
+[2.450s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.533s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.586s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.641s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.938s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.047s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.047s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.049s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[3.174s] -- Found octomap_msgs: 2.0.0 (/opt/ros/foxy/share/octomap_msgs/cmake)
+[3.231s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.239s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.444s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.452s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.456s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.609s] -- Configuring done
+[3.732s] -- Generating done
+[3.734s] -- Build files have been written to: /home/athul/Hiwi/submodules/planeDetection/build/octomap_server2
+[3.748s] Invoked command in '/home/athul/Hiwi/submodules/planeDetection/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2 -DCMAKE_INSTALL_PREFIX=/home/athul/Hiwi/submodules/planeDetection/install/octomap_server2
+[3.751s] Invoking command in '/home/athul/Hiwi/submodules/planeDetection/build/octomap_server2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/athul/Hiwi/submodules/planeDetection/build/octomap_server2 -- -j16 -l16
+[3.809s] [35m[1mScanning dependencies of target octomap_saver[0m
+[3.809s] [35m[1mScanning dependencies of target octomap_server[0m
+[3.809s] [35m[1mScanning dependencies of target octomap_server2[0m
+[3.811s] [35m[1mScanning dependencies of target octomap_saver_node[0m
+[3.897s] [ 10%] [32mBuilding CXX object CMakeFiles/octomap_saver_node.dir/rclcpp_components/node_main_octomap_saver_node.cpp.o[0m
+[3.898s] [ 20%] [32mBuilding CXX object CMakeFiles/octomap_server.dir/rclcpp_components/node_main_octomap_server.cpp.o[0m
+[3.903s] [ 30%] [32mBuilding CXX object CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o[0m
+[4.015s] [ 50%] [32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/conversions.cpp.o[0m
+[4.015s] [ 50%] [32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/octomap_server.cpp.o[0m
+[4.015s] [ 60%] [32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/transforms.cpp.o[0m
+[5.313s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/conversions.cpp:[m[K In function ‘[01m[Kvoid octomap::pointsOctomapToPointCloud2(const point3d_list&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[5.313s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/conversions.cpp:53:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoints[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.313s]    53 |     void pointsOctomapToPointCloud2([01;35m[Kconst point3d_list& points[m[K,
+[5.313s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.596s] [ 70%] [32m[1mLinking CXX executable octomap_saver_node[0m
+[5.751s] [ 70%] Built target octomap_saver_node
+[5.995s] [ 80%] [32m[1mLinking CXX executable octomap_server[0m
+[6.114s] [ 80%] Built target octomap_server
+[6.582s] [ 90%] [32m[1mLinking CXX shared library liboctomap_saver.so[0m
+[7.074s] [ 90%] Built target octomap_saver
+[8.805s] In file included from [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:2[m[K:
+[8.805s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handleNode(const iterator&)[m[K’:
+[8.805s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/include/octomap_server2/octomap_server.hpp:210:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.806s]   210 |         virtual void handleNode([01;35m[Kconst OcTreeT::iterator& it[m[K) {};
+[8.806s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.806s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handleNodeInBBX(const iterator&)[m[K’:
+[8.806s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/include/octomap_server2/octomap_server.hpp:211:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kit[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.806s]   211 |         virtual void handleNodeInBBX([01;35m[Kconst OcTreeT::iterator& it[m[K) {};
+[8.806s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.806s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In constructor ‘[01m[Koctomap_server::OctomapServer::OctomapServer(const rclcpp::NodeOptions&, std::string)[m[K’:
+[8.806s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/include/octomap_server2/octomap_server.hpp:148:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Koctomap_server::OctomapServer::m_useColoredMap[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[8.807s]   148 |         bool [01;35m[Km_useColoredMap[m[K;
+[8.807s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.807s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/include/octomap_server2/octomap_server.hpp:118:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble octomap_server::OctomapServer::m_colorFactor[m[K’ [[01;35m[K-Wreorder[m[K]
+[8.807s]   118 |         double [01;35m[Km_colorFactor[m[K;
+[8.807s]       |                [01;35m[K^~~~~~~~~~~~~[m[K
+[8.807s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:5:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[8.807s]     5 |     [01;35m[KOctomapServer[m[K::OctomapServer(
+[8.807s]       |     [01;35m[K^~~~~~~~~~~~~[m[K
+[8.872s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::publishAll(const rclcpp::Time&)[m[K’:
+[8.873s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:595:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.873s]   595 |                     double [01;35m[Ksize[m[K = it.getSize();
+[8.873s]       |                            [01;35m[K^~~~[m[K
+[8.886s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual bool octomap_server::OctomapServer::octomapBinarySrv(std::shared_ptr<octomap_msgs::srv::GetOctomap_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::GetOctomap_Response_<std::allocator<void> > >)[m[K’:
+[8.886s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:783:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.886s]   783 |         [01;35m[Kconst std::shared_ptr<OctomapSrv::Request> req[m[K,
+[8.886s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.887s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual bool octomap_server::OctomapServer::octomapFullSrv(std::shared_ptr<octomap_msgs::srv::GetOctomap_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::GetOctomap_Response_<std::allocator<void> > >)[m[K’:
+[8.887s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:802:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.887s]   802 |         [01;35m[Kconst std::shared_ptr<OctomapSrv::Request> req[m[K,
+[8.887s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.890s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kbool octomap_server::OctomapServer::clearBBXSrv(std::shared_ptr<octomap_msgs::srv::BoundingBoxQuery_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::BoundingBoxQuery_Response_<std::allocator<void> > >)[m[K’:
+[8.890s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:817:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.890s]   817 |         [01;35m[Kstd::shared_ptr<BBXSrv::Response> resp[m[K) {
+[8.890s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.894s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kbool octomap_server::OctomapServer::resetSrv(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[8.894s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:855:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<visualization_msgs::msg::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::msg::Marker_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[8.894s]   855 |         for (auto i = 0; [01;35m[Ki < occupiedNodesVis.markers.size()[m[K; ++i){
+[8.894s]       |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.894s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:871:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<visualization_msgs::msg::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::msg::Marker_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[8.894s]   871 |         for (auto i = 0; [01;35m[Ki < freeNodesVis.markers.size()[m[K; ++i) {
+[8.894s]       |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.894s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:835:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.895s]   835 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[8.895s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.895s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:836:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.895s]   836 |         [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> resp[m[K) {
+[8.895s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.910s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handlePreNodeTraversal(const rclcpp::Time&)[m[K’:
+[8.910s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:1163:59:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[8.910s]  1163 |                 for (unsigned int j = mapUpdateBBXMinY; [01;35m[Kj <= mapUpdateBBXMaxY[m[K; ++j) {
+[8.911s]       |                                                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[8.916s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handlePostNodeTraversal(const rclcpp::Time&)[m[K’:
+[8.917s] [01m[K/home/athul/Hiwi/submodules/planeDetection/ros2/src/octomap_server2/src/octomap_server.cpp:1173:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krostime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.917s]  1173 |         [01;35m[Kconst rclcpp::Time& rostime[m[K){
+[8.917s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[18.547s] [100%] [32m[1mLinking CXX shared library liboctomap_server2.so[0m
+[19.937s] [100%] Built target octomap_server2
+[19.953s] Invoked command in '/home/athul/Hiwi/submodules/planeDetection/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/athul/Hiwi/submodules/planeDetection/build/octomap_server2 -- -j16 -l16
+[20.024s] Invoking command in '/home/athul/Hiwi/submodules/planeDetection/build/octomap_server2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/athul/Hiwi/submodules/planeDetection/build/octomap_server2
+[20.031s] -- Install configuration: ""
+[20.031s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/lib/octomap_server2/octomap_server
+[20.031s] -- Set runtime path of "/home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/lib/octomap_server2/octomap_server" to ""
+[20.031s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/lib/octomap_server2/octomap_saver_node
+[20.032s] -- Set runtime path of "/home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/lib/octomap_server2/octomap_saver_node" to ""
+[20.032s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/lib/liboctomap_server2.so
+[20.042s] -- Set runtime path of "/home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/lib/liboctomap_server2.so" to ""
+[20.042s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/lib/liboctomap_saver.so
+[20.043s] -- Set runtime path of "/home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/lib/liboctomap_saver.so" to ""
+[20.043s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2//launch
+[20.043s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2//launch/octomap_server_launch.py
+[20.043s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2//launch/octomap_saver_launch.py
+[20.043s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/ament_index/resource_index/package_run_dependencies/octomap_server2
+[20.044s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/ament_index/resource_index/parent_prefix_path/octomap_server2
+[20.044s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.sh
+[20.044s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.dsv
+[20.044s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/environment/path.sh
+[20.044s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/environment/path.dsv
+[20.044s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/local_setup.bash
+[20.045s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/local_setup.sh
+[20.045s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/local_setup.zsh
+[20.045s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/local_setup.dsv
+[20.045s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/package.dsv
+[20.045s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/ament_index/resource_index/packages/octomap_server2
+[20.045s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/ament_index/resource_index/rclcpp_components/octomap_server2
+[20.046s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config.cmake
+[20.046s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config-version.cmake
+[20.046s] -- Installing: /home/athul/Hiwi/submodules/planeDetection/install/octomap_server2/share/octomap_server2/package.xml
+[20.049s] Invoked command in '/home/athul/Hiwi/submodules/planeDetection/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/athul/Hiwi/submodules/planeDetection/build/octomap_server2

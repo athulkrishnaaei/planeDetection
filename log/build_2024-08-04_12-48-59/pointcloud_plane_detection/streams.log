@@ -1,0 +1,37 @@
+[0.933s] Invoking command in '/home/athul/Hiwi/submodules/planeDetection/ros2/src/pointcloud_plane_detection': PYTHONPATH=/home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/pointcloud_plane_detection build --build-base /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build install --record /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/install.log --install-scripts $base/lib/pointcloud_plane_detection --single-version-externally-managed install_data
+[1.123s] running egg_info
+[1.123s] creating ../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info
+[1.123s] writing ../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info/PKG-INFO
+[1.123s] writing dependency_links to ../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info/dependency_links.txt
+[1.123s] writing entry points to ../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info/entry_points.txt
+[1.124s] writing requirements to ../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info/requires.txt
+[1.124s] writing top-level names to ../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info/top_level.txt
+[1.124s] writing manifest file '../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info/SOURCES.txt'
+[1.156s] reading manifest file '../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info/SOURCES.txt'
+[1.157s] writing manifest file '../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info/SOURCES.txt'
+[1.157s] running build
+[1.157s] running build_py
+[1.157s] creating /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build
+[1.157s] creating /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build/lib
+[1.157s] creating /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build/lib/pointcloud_plane_detection
+[1.157s] copying pointcloud_plane_detection/__init__.py -> /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build/lib/pointcloud_plane_detection
+[1.157s] copying pointcloud_plane_detection/plane_detection.py -> /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build/lib/pointcloud_plane_detection
+[1.157s] running install
+[1.158s] running install_lib
+[1.159s] creating /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/python3.8/site-packages/pointcloud_plane_detection
+[1.159s] copying /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build/lib/pointcloud_plane_detection/plane_detection.py -> /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/python3.8/site-packages/pointcloud_plane_detection
+[1.159s] copying /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build/lib/pointcloud_plane_detection/__init__.py -> /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/python3.8/site-packages/pointcloud_plane_detection
+[1.159s] byte-compiling /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/python3.8/site-packages/pointcloud_plane_detection/plane_detection.py to plane_detection.cpython-38.pyc
+[1.162s] byte-compiling /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/python3.8/site-packages/pointcloud_plane_detection/__init__.py to __init__.cpython-38.pyc
+[1.163s] running install_data
+[1.163s] creating /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/share/ament_index
+[1.163s] creating /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/share/ament_index/resource_index
+[1.163s] creating /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/share/ament_index/resource_index/packages
+[1.163s] copying resource/pointcloud_plane_detection -> /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/share/ament_index/resource_index/packages
+[1.163s] copying package.xml -> /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/share/pointcloud_plane_detection
+[1.163s] running install_egg_info
+[1.164s] Copying ../../../build/pointcloud_plane_detection/pointcloud_plane_detection.egg-info to /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/python3.8/site-packages/pointcloud_plane_detection-0.0.0-py3.8.egg-info
+[1.165s] running install_scripts
+[1.178s] Installing plane_detection script to /home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/pointcloud_plane_detection
+[1.178s] writing list of installed files to '/home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/install.log'
+[1.198s] Invoked command in '/home/athul/Hiwi/submodules/planeDetection/ros2/src/pointcloud_plane_detection' returned '0': PYTHONPATH=/home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athul/Hiwi/submodules/planeDetection/install/pointcloud_plane_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/pointcloud_plane_detection build --build-base /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/build install --record /home/athul/Hiwi/submodules/planeDetection/build/pointcloud_plane_detection/install.log --install-scripts $base/lib/pointcloud_plane_detection --single-version-externally-managed install_data
